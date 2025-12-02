@@ -1,0 +1,45 @@
+/* 2. Customize Fonts */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+/* 1. Enhance the Page Title */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1E90FF; /* Dodger Blue */
+}
+
+/* 2. Customize Section Colors (Usando seletores mais simples, pois não há mais CSS interno) */
+h2:nth-of-type(1) { /* Mission Statement */
+    color: #32CD32; /* Lime Green */
+}
+
+/* 5. Assign ID and style for Upcoming Events background */
+#upcoming-events { 
+    color: #FFA07A; /* Light Salmon */
+    background-color: #FFFFE0; /* Light Yellow */
+    padding: 5px;
+}
+
+h2:nth-of-type(3) { /* Contact Us */
+    color: #20B2AA; /* Light Sea Green */
+}
+
+/* 5. Style Specific Sections with Classes - Outdoor Events */
+.outdoor {
+    background-color: #AFEEEE; /* Pale Turquoise */
+    padding: 5px;
+    border: 1px solid #B0E0E6; /* Light Steel Blue */
+    margin-bottom: 5px;
+    list-style: none; /* Remove list bullet for better visual */
+}
+
+/* 7. Add a Box for Contact Info and Make It Look Nice */
+.section {
+    background-color: #f8f3f3; /* Light Grey/Off-White */
+    padding: 10px;
+    border-radius: 5px; /* Optional: adds rounded corners */
+    margin-top: 10px;
+}
